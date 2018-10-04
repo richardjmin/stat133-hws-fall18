@@ -5,8 +5,7 @@ In data2018.csv, it is an excel sheet that contains every single NBA player that
 
 This was the [main source](https://www.basketball-reference.com/) that was used to get the information and data for each NBA player in 2018. This [sample source](https://www.basketball-reference.com/teams/GSW/2018.html) was used for the data of players of the Golden State Warriors for 2018.  
 
-
-####_Description of Variables_:  
+_Description of Variables_:  
 • player: first and last names of player  
 • number: number on jersey  
 • team: 3-letter team abbreviation  
