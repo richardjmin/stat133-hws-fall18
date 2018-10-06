@@ -26,10 +26,10 @@
  Mean   :363.0   Mean   :1025.0   Mean   :1519  
  3rd Qu.:392.5   3rd Qu.:1100.5   3rd Qu.:1620  
  Max.   :554.0   Max.   :1212.0   Max.   :1887  
-   efficiency   
- Min.   :131.5  
- 1st Qu.:144.1  
- Median :148.0  
- Mean   :152.3  
- 3rd Qu.:160.6  
- Max.   :182.1  
+   efficiency    my_efficiency  
+ Min.   :131.5   Min.   :177.3  
+ 1st Qu.:144.1   1st Qu.:186.5  
+ Median :148.0   Median :192.4  
+ Mean   :152.3   Mean   :197.0  
+ 3rd Qu.:160.6   3rd Qu.:206.7  
+ Max.   :182.1   Max.   :232.4  

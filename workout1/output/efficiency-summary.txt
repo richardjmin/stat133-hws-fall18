@@ -14,22 +14,22 @@
                                        3rd Qu.:240.0  
                                        Max.   :290.0  
                                                       
-  birth_date          country           experience       
- Length:477         Length:477         Length:477        
- Class :character   Class :character   Class :character  
- Mode  :character   Mode  :character   Mode  :character  
-                                                         
-                                                         
-                                                         
-                                                         
-   college              salary              rank       
- Length:477         Min.   :    5145   Min.   : 1.000  
- Class :character   1st Qu.: 1050961   1st Qu.: 5.000  
- Mode  :character   Median : 3000000   Median : 9.000  
-                    Mean   : 5804697   Mean   : 9.281  
-                    3rd Qu.: 8269663   3rd Qu.:14.000  
-                    Max.   :30963450   Max.   :26.000  
+  birth_date          country            experience    
+ Length:477         Length:477         Min.   : 0.000  
+ Class :character   Class :character   1st Qu.: 1.000  
+ Mode  :character   Mode  :character   Median : 4.000  
+                                       Mean   : 4.662  
+                                       3rd Qu.: 7.000  
+                                       Max.   :18.000  
                                                        
+   college              salary               rank       
+ Length:477         Min.   : 0.005145   Min.   : 1.000  
+ Class :character   1st Qu.: 1.050961   1st Qu.: 5.000  
+ Mode  :character   Median : 3.000000   Median : 9.000  
+                    Mean   : 5.804697   Mean   : 9.281  
+                    3rd Qu.: 8.269663   3rd Qu.:14.000  
+                    Max.   :30.963450   Max.   :26.000  
+                                                        
       age            games       games_started  
  Min.   :19.00   Min.   : 1.00   Min.   : 0.00  
  1st Qu.:23.00   1st Qu.:25.00   1st Qu.: 0.00  
@@ -94,11 +94,27 @@
  3rd Qu.: 54.00   3rd Qu.: 31.00   3rd Qu.: 94.00  
  Max.   :157.00   Max.   :214.00   Max.   :464.00  
                                                    
-     fouls            points      
- Min.   :  0.00   Min.   :   0.0  
- 1st Qu.: 32.00   1st Qu.: 124.0  
- Median : 95.00   Median : 403.0  
- Mean   : 95.51   Mean   : 510.3  
- 3rd Qu.:145.00   3rd Qu.: 756.0  
- Max.   :263.00   Max.   :2558.0  
-                                  
+     fouls            points         missed_fg     
+ Min.   :  0.00   Min.   :   0.0   Min.   :   0.0  
+ 1st Qu.: 32.00   1st Qu.: 124.0   1st Qu.:  54.0  
+ Median : 95.00   Median : 403.0   Median : 175.0  
+ Mean   : 95.51   Mean   : 510.3   Mean   : 223.1  
+ 3rd Qu.:145.00   3rd Qu.: 756.0   3rd Qu.: 330.0  
+ Max.   :263.00   Max.   :2558.0   Max.   :1117.0  
+                                                   
+   missed_ft         rebounds        efficiency     
+ Min.   :  0.00   Min.   :   0.0   Min.   :-0.6667  
+ 1st Qu.:  5.00   1st Qu.:  52.0   1st Qu.: 5.0000  
+ Median : 17.00   Median : 162.0   Median : 8.3472  
+ Mean   : 25.38   Mean   : 209.3   Mean   : 9.5788  
+ 3rd Qu.: 33.00   3rd Qu.: 293.0   3rd Qu.:12.6066  
+ Max.   :220.00   Max.   :1115.0   Max.   :33.8272  
+                                                    
+ my_efficiency   
+ Min.   : 0.000  
+ 1st Qu.: 6.942  
+ Median :11.109  
+ Mean   :12.388  
+ 3rd Qu.:16.786  
+ Max.   :40.457  
+                 
