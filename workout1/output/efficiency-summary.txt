@@ -1,0 +1,112 @@
+    player             number              team          
+ Length:477         Length:477         Length:477        
+ Class :character   Class :character   Class :character  
+ Mode  :character   Mode  :character   Mode  :character  
+                                                         
+                                                         
+                                                         
+                                                         
+   position            height              weight     
+ Length:477         Length:477         Min.   :150.0  
+ Class :character   Class :character   1st Qu.:200.0  
+ Mode  :character   Mode  :character   Median :220.0  
+                                       Mean   :219.9  
+                                       3rd Qu.:240.0  
+                                       Max.   :290.0  
+                                                      
+  birth_date          country            experience    
+ Length:477         Length:477         Min.   : 0.000  
+ Class :character   Class :character   1st Qu.: 1.000  
+ Mode  :character   Mode  :character   Median : 4.000  
+                                       Mean   : 4.662  
+                                       3rd Qu.: 7.000  
+                                       Max.   :18.000  
+                                                       
+   college              salary               rank       
+ Length:477         Min.   : 0.005145   Min.   : 1.000  
+ Class :character   1st Qu.: 1.050961   1st Qu.: 5.000  
+ Mode  :character   Median : 3.000000   Median : 9.000  
+                    Mean   : 5.804697   Mean   : 9.281  
+                    3rd Qu.: 8.269663   3rd Qu.:14.000  
+                    Max.   :30.963450   Max.   :26.000  
+                                                        
+      age            games       games_started  
+ Min.   :19.00   Min.   : 1.00   Min.   : 0.00  
+ 1st Qu.:23.00   1st Qu.:25.00   1st Qu.: 0.00  
+ Median :26.00   Median :60.00   Median :10.00  
+ Mean   :26.39   Mean   :50.71   Mean   :24.38  
+ 3rd Qu.:29.00   3rd Qu.:74.00   3rd Qu.:46.00  
+ Max.   :40.00   Max.   :82.00   Max.   :82.00  
+                                                
+    minutes      field_goals    field_goals_atts
+ Min.   :   1   Min.   :  0.0   Min.   :   0.0  
+ 1st Qu.: 381   1st Qu.: 46.0   1st Qu.: 107.0  
+ Median :1123   Median :146.0   Median : 330.0  
+ Mean   :1164   Mean   :188.7   Mean   : 411.8  
+ 3rd Qu.:1843   3rd Qu.:281.0   3rd Qu.: 624.0  
+ Max.   :3048   Max.   :824.0   Max.   :1941.0  
+                                                
+ field_goals_perc    points3       points3_atts  
+ Min.   :0.0000   Min.   :  0.0   Min.   :  0.0  
+ 1st Qu.:0.3995   1st Qu.:  2.0   1st Qu.:  8.0  
+ Median :0.4430   Median : 26.0   Median : 78.0  
+ Mean   :0.4402   Mean   : 46.4   Mean   :129.4  
+ 3rd Qu.:0.4880   3rd Qu.: 73.0   3rd Qu.:204.0  
+ Max.   :1.0000   Max.   :324.0   Max.   :789.0  
+ NA's   :2                                       
+  points3_perc       points2       points2_atts   
+ Min.   :0.0000   Min.   :  0.0   Min.   :   0.0  
+ 1st Qu.:0.2712   1st Qu.: 30.0   1st Qu.:  68.0  
+ Median :0.3375   Median :100.0   Median : 201.0  
+ Mean   :0.3040   Mean   :142.3   Mean   : 282.4  
+ 3rd Qu.:0.3780   3rd Qu.:208.0   3rd Qu.: 422.0  
+ Max.   :1.0000   Max.   :730.0   Max.   :1421.0  
+ NA's   :39                                       
+  points2_perc    effective_field_goal_perc    points1      
+ Min.   :0.0000   Min.   :0.0000            Min.   :  0.00  
+ 1st Qu.:0.4440   1st Qu.:0.4650            1st Qu.: 15.00  
+ Median :0.4910   Median :0.5030            Median : 50.00  
+ Mean   :0.4832   Mean   :0.4927            Mean   : 86.49  
+ 3rd Qu.:0.5370   3rd Qu.:0.5405            3rd Qu.:116.00  
+ Max.   :1.0000   Max.   :1.0000            Max.   :746.00  
+ NA's   :5        NA's   :2                                 
+  points1_atts    points1_perc     off_rebounds   
+ Min.   :  0.0   Min.   :0.0000   Min.   :  0.00  
+ 1st Qu.: 22.0   1st Qu.:0.6827   1st Qu.:  9.00  
+ Median : 71.0   Median :0.7660   Median : 29.00  
+ Mean   :111.9   Mean   :0.7452   Mean   : 48.86  
+ 3rd Qu.:151.0   3rd Qu.:0.8327   3rd Qu.: 63.00  
+ Max.   :881.0   Max.   :1.0000   Max.   :345.00  
+                 NA's   :19                       
+  def_rebounds   total_rebounds      assists     
+ Min.   :  0.0   Min.   :   0.0   Min.   :  0.0  
+ 1st Qu.: 43.0   1st Qu.:  52.0   1st Qu.: 20.0  
+ Median :131.0   Median : 162.0   Median : 64.0  
+ Mean   :160.5   Mean   : 209.3   Mean   :109.7  
+ 3rd Qu.:222.0   3rd Qu.: 293.0   3rd Qu.:144.0  
+ Max.   :816.0   Max.   :1115.0   Max.   :907.0  
+                                                 
+     steals           blocks         turnovers     
+ Min.   :  0.00   Min.   :  0.00   Min.   :  0.00  
+ 1st Qu.: 10.00   1st Qu.:  4.00   1st Qu.: 16.00  
+ Median : 30.00   Median : 13.00   Median : 50.00  
+ Mean   : 37.04   Mean   : 22.83   Mean   : 64.47  
+ 3rd Qu.: 54.00   3rd Qu.: 31.00   3rd Qu.: 94.00  
+ Max.   :157.00   Max.   :214.00   Max.   :464.00  
+                                                   
+     fouls            points         missed_fg     
+ Min.   :  0.00   Min.   :   0.0   Min.   :   0.0  
+ 1st Qu.: 32.00   1st Qu.: 124.0   1st Qu.:  54.0  
+ Median : 95.00   Median : 403.0   Median : 175.0  
+ Mean   : 95.51   Mean   : 510.3   Mean   : 223.1  
+ 3rd Qu.:145.00   3rd Qu.: 756.0   3rd Qu.: 330.0  
+ Max.   :263.00   Max.   :2558.0   Max.   :1117.0  
+                                                   
+   missed_ft         rebounds        efficiency     
+ Min.   :  0.00   Min.   :   0.0   Min.   :-0.6667  
+ 1st Qu.:  5.00   1st Qu.:  52.0   1st Qu.: 5.0000  
+ Median : 17.00   Median : 162.0   Median : 8.3472  
+ Mean   : 25.38   Mean   : 209.3   Mean   : 9.5788  
+ 3rd Qu.: 33.00   3rd Qu.: 293.0   3rd Qu.:12.6066  
+ Max.   :220.00   Max.   :1115.0   Max.   :33.8272  
+                                                    
