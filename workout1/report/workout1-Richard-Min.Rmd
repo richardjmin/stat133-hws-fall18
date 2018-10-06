@@ -12,6 +12,8 @@ knitr::opts_chunk$set(echo = TRUE, fig.path = '../outputs/')
 ```{r}
 library(readr)
 library(ggplot2)
+dat = read_csv('../data/nba2018-teams.csv')
+
 ```
 
 ```{r horizontal barchart1}
