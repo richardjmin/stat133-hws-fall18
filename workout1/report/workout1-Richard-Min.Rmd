@@ -4,6 +4,10 @@ author: "Richard Min"
 date: "10/2/2018"
 output: github_document
 ---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.path = '../outputs/')
+
+```
 
 ```{r}
 library(readr)
@@ -30,8 +34,11 @@ ggplot(teams, aes(x = reorder(teams$team, teams$efficiency), y = teams$efficienc
 ```
 
 ```{r horizontal barchart4}
+avg_my_eff = mean(teams$my_efficiency)
 
+ggplot(teams, aes(x = reorder(teams$team, teams$my_efficiency), y = teams$my_efficiency)) + geom_bar(stat='identity') + coord_flip() + xlab("Teams") + ylab("My Efficiency") + ggtitle("NBA Teams Ranked by My Efficiency") + geom_hline(aes(yintercept = avg_my_eff, color = 'red'))
 
+#I used my_efficiency for my own index to calculate the efficiency of each team. I used the same method as efficiency but took out missed_fg. I found total points and subtract it by points1, which gave points from free throws. I thought that free throws is more on the mind than pure skill so I don't want to see a players efficiency go down because of mental weakness. 
 ```
 
 ###_Comments and Reflections_  
