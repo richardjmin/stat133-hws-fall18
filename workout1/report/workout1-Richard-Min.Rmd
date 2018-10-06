@@ -5,11 +5,42 @@ date: "10/2/2018"
 output: github_document
 ---
 
-```{r, eval = FALSE}
-library(readr)
-```
-
 ```{r}
+library(readr)
+library(ggplot2)
+```
+
+```{r horizontal barchart1}
+ggplot(teams, aes(x = reorder(teams$team, teams$salary), y = teams$salary)) +
+  geom_bar(stat='identity') +
+  coord_flip() + xlab("Teams") + ylab("Salary (in millions") + ggtitle("NBA Teams Ranked by Total Salary")
+```
+
+```{r horizontal barchart 2}
+avg_points = mean(teams$points)
+
+ggplot(teams, aes(x = reorder(teams$team, teams$points), y = teams$points)) + geom_bar(stat='identity') + coord_flip() + xlab('Teams') + ylab('Total Points') + ggtitle('NBA Teams Ranked by Total Points') + geom_hline(aes(yintercept = avg_points, color = 'red'))
 
 ```
 
+```{r horizontal barchart 3}
+avg_efficiency = mean(teams$efficiency)
+ggplot(teams, aes(x = reorder(teams$team, teams$efficiency), y = teams$efficiency)) + geom_bar(stat='identity') + coord_flip() + xlab("Teams") + ylab("Efficiency") + ggtitle("NBA Teams Ranked by Total Efficiency") + geom_hline(aes(yintercept = avg_efficiency, color = 'red'))
+
+```
+
+```{r horizontal barchart4}
+
+
+```
+
+###_Comments and Reflections_  
+1. Yes this was the first time I have ever worked on this kind of project. It was pretty difficult.  
+2. Yes, this was my first time using relative paths. It is important to be able to access the files inside depending if they are in a different directory.   
+3. Yes, this was my first time using R script. I thought it was fine.  
+4. Using relative path was hard because it was my first time dealing with it. It was a bit tricky to get used to it. I have to remember where my working depository at all times.  
+5. Nothing was easy despite not seeing it in class.  
+6. Yes, I had previous students help me with understanding relative path. Uploading to GitHub was also tricky.  
+7. It took me about 15 hours to finish.  
+8. Uploading to GitHub and understanding relative path took the most time.  
+9. I thought that relative paths was interesting.  
