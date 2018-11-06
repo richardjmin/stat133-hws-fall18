@@ -1,0 +1,2 @@
+In this assignment, you will create a set of different functions, applying the concetps covered so far: creating functions, documenting functions with Roxygen comments, using if-conditionals, loop structures, and manipulation of strings. In addition, you will also have to implement tests for your functions using the R package "testthat".  
+Mainly we will be testing functions and strings. This assignment will include Roxygen comments. 
