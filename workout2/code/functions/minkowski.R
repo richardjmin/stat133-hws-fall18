@@ -7,13 +7,13 @@
 
 minkowski = function(x, y, p = 1) {
   if (length(x) != length(y)) {
-    stop('x and y have different lengths')
+    stop('x and y have different lengths fool')
   }
   if (is.numeric(p) == TRUE & p < 1) {
-    stop('p cannot be less than 1')
+    stop('p cannot be less than 1 dummy')
   }
   if (is.character(p) & p != 'max') {
-    stop('invalid character value for p')
+    stop('invalid character value for p fool')
   }
   sum = 0
   for (i in 1:length(x)) {
