@@ -1,0 +1,10 @@
+Package: roller
+Type: Package
+Title: Simulates throwing a device
+Version: 0.1.0
+Author: Richard Min
+Maintainer: Richard Min <rjmin@berkeley.edu>
+Description: This package allows for the user to simulate tossing device. The user can create different kinds of device. This means that the user can pick what the faces are and the probabilities of each face occurring. However, the probabilities must be valid probabilities from 0 to 1 that add up to 1 and sides must be correct. Also length of sides and prob must be the same. 
+License: 
+Encoding: UTF-8
+LazyData: true

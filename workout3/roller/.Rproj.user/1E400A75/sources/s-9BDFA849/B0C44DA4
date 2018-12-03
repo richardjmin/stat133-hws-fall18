@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1543819862783.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2972644378",
+    "id" : "B0C44DA4",
+    "lastKnownWriteTime" : 1543820138,
+    "last_content_update" : 1543820138792,
+    "path" : "~/Documents/GitHub/stat133-hws-fall18/workout3/roller/NAMESPACE",
+    "project_path" : "NAMESPACE",
+    "properties" : {
+        "cursorPosition" : "19,21",
+        "scrollLine" : "2"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_namespace"
+}

@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1543820307007.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1797919310",
+    "id" : "48AA0BC4",
+    "lastKnownWriteTime" : 1543820461,
+    "last_content_update" : 1543820461173,
+    "path" : "~/Documents/GitHub/stat133-hws-fall18/workout3/roller/tests/testthat.R",
+    "project_path" : "tests/testthat.R",
+    "properties" : {
+        "cursorPosition" : "1,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,68 @@
+---
+title: "R Package Roller Vignette"
+author: "Richard Min"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to Roller}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, echo = FALSE, message = FALSE}
+knitr::opts_chunk$set(collapse = T, comment = "#>")
+library(roller)
+```
+
+# Roller
+```{r}
+# The package "roller" simulates tossing a die a given number of times, and helps you to visualize the relative frequencies in a certain series of rolls.
+```
+
+## Creating a `device`
+
+Create a `"device"` object with the function `device()`:
+
+```{r}
+fair_die <- device() 
+fair_die
+```
+
+By default, `device()` creates a _fair_ coin
+
+You can change the defatuls with arguments `sides` and `prob`:
+
+```{r}
+loaded_die <- die(sides = 6, prob = c(0.075, 0.1, 0.125, 0.15, 0.20, 0.35))
+loaded_die
+```
+
+
+## Rolling a die
+
+Once you have constructed a `"device"` object, you can use the function `roll()` to _roll_ a coin a given number of `times`. The output will be an object of class `"roll"`, which will contain the vector of `roll`:
+
+```{r}
+set.seed(123)
+fair_50rolls <- roll(fair_die, times = 50)
+fair_50rolls
+```
+
+The `summary()` function gives you a table of frequencies:
+```{r}
+set.seed(123)
+fair_50rolls <- roll(fair_die, times = 50) 
+fair50_sum <- summary(fair_50rolls)
+fair50_sum
+```
+
+
+## Plot of relative frequencies
+
+You can use the function `plot()` to create a plot with the relative 
+frequencies of a series of die rolls:
+
+```{r, fig.show='hold'}
+plot(fair_50rolls)
+```
+
