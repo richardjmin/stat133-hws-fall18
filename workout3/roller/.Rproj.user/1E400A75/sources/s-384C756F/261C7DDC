@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3104043524",
+    "hash" : "0",
     "id" : "261C7DDC",
-    "lastKnownWriteTime" : 1543821375,
-    "last_content_update" : 1543821375167,
+    "lastKnownWriteTime" : 1543822583,
+    "last_content_update" : 1543822583680,
     "path" : "~/Documents/GitHub/stat133-hws-fall18/workout3/roller/devtools-roller.R",
     "project_path" : "devtools-roller.R",
     "properties" : {
-        "cursorPosition" : "2,1",
+        "cursorPosition" : "12,47",
         "scrollLine" : "0"
     },
     "relative_order" : 6,
